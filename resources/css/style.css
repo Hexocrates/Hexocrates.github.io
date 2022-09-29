@@ -1,3 +1,6 @@
+body{
+    clear: both;
+}
 h1{
     color: purple;
 }
@@ -5,19 +8,23 @@ section{
     border: solid 5px;
     width: 500px;
     height: 500px
-    float:none;
+    clear: both;
+    
 }
 article.Test{
     border: solid green 3px;
-    width: 100px;
+    width: 25%;
     height: 100px
+    float:left;
+    clear: both;
 
 
 }
 article{
     border: blue solid 1px;
-    width: 50px;
-    height: 50px
+    width: 70%;
+    height: 50px;
+    float:right;
 
 
 }

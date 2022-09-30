@@ -1,5 +1,5 @@
-body{
-    clear: both;
+*{
+    box-sizing: border-box;
 }
 h1{
     color: purple;
@@ -8,8 +8,8 @@ section{
     border: solid 5px;
     width: 500px;
     height: 500px
-    clear: both;
-    
+    float: none;
+
 }
 article.Test{
     border: solid green 3px;

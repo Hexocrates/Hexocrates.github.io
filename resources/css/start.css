@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A5C9CA;
+}
+
+.wraps .intro {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.animated-text li{
+    list-style:none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.animated-text li ::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+}
+
+div{
+    display:flex;
+}
+span{
+    flex:1;
+}

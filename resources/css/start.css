@@ -16,7 +16,7 @@ html{
    background-color: #bbdefb;
    height: 100vh;
    margin: 0;
-   gap: 5px;
+   gap: 0px;
 
  }
 
@@ -33,7 +33,7 @@ html{
    /* flex:0 1 auto; */
    flex-shrink:1;
    align-self:center;
-   font-size:3vw;
+   font-size:5vw;
  }
 
 div.quote2 {
@@ -42,13 +42,41 @@ div.quote2 {
     flex-direction: row;
     color:blue;
     display: flex;
-    font-size:3vw
+    font-size:5vw
 }
 
 span.static_quote{
 flex-grow:4;
 
 }
-span.ani_quote{
+ul{
 flex-grow:1;
+color: red;
+}
+
+.animated-text li{
+    color: green;
+    list-style: none;
+    position: relative;
+}
+.animated-text li::after{
+    content: " ";
+    position: absolute;
+    background-color: #bbdefb;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: green;
+    border-left: 2px solid green;
+    animation: typing 2s steps(10) infinite;
+}
+
+@keyframes typing {
+    40%,
+    60%{
+        left: calc(100% + 30px)
+    }
+    100%{
+        left: 0;
+    }
 }

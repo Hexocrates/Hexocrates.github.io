@@ -1,37 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+/*
+colors #f2f1eb
+#343f4f darkest
+#df7269 redish highlight
+font color #5e6577
+*/
+
+html{
+    font-size: 100%;
+}
+
+.flex-container {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    background-color: #343f4f;
+    height: 100vh;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    /*background: #ffecb3;
+    border: 3px solid #ffcc80;*/
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+  .item1 {
+    /* flex:0 1 auto; */
+    flex-grow:0;
+    align-self:center;
+  }
+
+  .button {
+    /* flex:0 1 auto; */
+    align-self:center;
+  background-color: white;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+  }
+.dyno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    }
+}
+
+
+
+
+h2{
+    font-size: 1rem;
+    color: #f2f1eb;
 }
 h1{
-    color: purple;
+    font-size: 1.5rem;
+    color: #df7269;
+    font-size:5vw;
 }
-section{
-    border: solid 5px;
-    width: 500px;
-    height: 500px
-    float: none;
-
+span{
+    font-size:4vw;
+    color:white;
 }
-article.Test{
-    border: solid green 3px;
-    width: 25%;
-    height: 100px
-    float:left;
-    clear: both;
-
-
+span.auto-type{
+    font-size:4vw;
+    color:#5e6577;
 }
-article{
-    border: blue solid 1px;
-    width: 70%;
-    height: 50px;
-    float:right;
-
-
-}
-/**********************<(TAGS SELECTORS)>**************************/
-
-
-/**********************<(CLASS SELECTORS)>**************************/
-
-
-/**********************<(ID SELECTORS)>**************************/

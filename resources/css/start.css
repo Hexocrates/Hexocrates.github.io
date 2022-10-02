@@ -32,15 +32,14 @@ html {
 }
 
 .flex-container>div {
-    /*background: #ffecb3;
-    border: 3px solid #ffcc80;*/
+
     border-radius: 5px;
     padding: 8px;
 }
 
 img {
-    border-radius: 30px;
-    border: 2px solid #df7269;
+    border-radius: 100px;
+    border: 10px solid #5e6577;
     max-width: 25%;
     height: auto;
 }
@@ -63,7 +62,7 @@ img {
 
 h2 {
     font-size: 1rem;
-    color: #f2f1eb;
+
 }
 
 h1 {
@@ -74,7 +73,8 @@ h1 {
 
 span {
     font-size: 4vw;
-    color: white;
+
+    color: #f2f1eb;
 }
 
 span.auto-type {
@@ -82,31 +82,29 @@ span.auto-type {
     color: #5e6577;
 }
 
-.main_button {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    cursor: pointer;
-    border: 3px solid;
-    padding: 0.25em 0.5em;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
+a.button2{
+     display:inline-block;
+     padding:0.35em 1.2em;
+     border:0.1em solid #f2f1eb;
+     margin:0 0.3em 0.3em 0;
+     border-radius:0.12em;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#f2f1eb;
+     text-align:center;
+     transition: all 0.2s;
 
-.main_button:active {
-    box-shadow: 0px 0px 0px 0px;
-    top: 5px;
-    left: 5px;
+     max-width: 25%;
+     height: auto;
 }
-
-@media (min-width: 768px) {
-    .main_button {
-        padding: 0.25em 0.75em;
+ a.button2:hover{
+     color:#000000;
+     background-color:#f2f1eb;
+}
+ @media all and (max-width:30em){
+     a.button2{
+         display:block;
+         margin:0.4em auto;
     }
 }

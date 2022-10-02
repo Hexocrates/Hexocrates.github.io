@@ -40,7 +40,7 @@ html {
 img {
     border-radius: 100px;
     border: 10px solid #5e6577;
-    max-width: 25%;
+    max-width: 15%;
     height: auto;
 }
 
@@ -66,13 +66,14 @@ h2 {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #df7269;
-    font-size: 5vw;
+    font-size: 4.4vw;
+
 }
 
 span {
-    font-size: 4vw;
+    font-size: 3.5vw;
 
     color: #f2f1eb;
 }

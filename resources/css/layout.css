@@ -37,6 +37,7 @@ font color #5e6577
     height: 100vh;
     display: flex;
     background-color:#343f4f;
+    postion: sticky;
   }
 
   .main {

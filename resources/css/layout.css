@@ -12,3 +12,37 @@ colors #f2f1eb
 font color #5e6577
 */
 }
+
+.homepage {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    /* flex-flow: row nowrap; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+
+    height: 100%;
+
+
+
+  }
+
+
+
+  .sidebar {
+    /* flex:1 1 auto; */
+    flex-grow:1.5;
+    height: 100vh;
+    display: flex;
+    background-color:#343f4f;
+  }
+
+  .main {
+    /* flex:5 1 auto; */
+    flex-grow:5;
+    background-color: #f2f1eb
+    display: flex;
+
+  }

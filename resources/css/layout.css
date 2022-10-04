@@ -45,5 +45,5 @@ font color #5e6577
     flex-grow:5;
     background-color: #f2f1eb
     display: flex;
-
+    height: 100vh;
   }

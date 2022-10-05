@@ -20,3 +20,17 @@ html{
 body{
     background-color: #f2f1eb;
 }
+
+section{
+    border:2px solid red;
+}
+
+.main_sec{
+    height: 75vh;
+    border:2px solid blue;
+}
+
+
+article{
+    border: dashed green;
+}

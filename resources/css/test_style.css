@@ -21,16 +21,88 @@ body{
     background-color: #f2f1eb;
 }
 
-section{
-    border:2px solid red;
-}
-
-.main_sec{
-    height: 75vh;
-    border:2px solid blue;
 }
 
 
-article{
-    border: dashed green;
+.flex-container {
+
+  display: flex;
+
+  justify-content: center;
+  align-items: stretch;
+  /* flex-flow: column; */
+  flex-direction: column;
+  align-content: center;
+
+  background-color: #2f3e46;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+
 }
+
+.flex-container > div{
+  background: #354f52;
+  border: 3px solid #52796f;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+.section1 {
+  /* flex:1 1 auto; */
+  flex-grow:1;
+
+
+
+}
+
+.section2 {
+  /* flex:1 1 auto; */
+  flex-grow:1;
+}
+
+.section3 {
+  /* flex:1 1 auto; */
+  flex-grow:1;
+}
+
+.section4 {
+  /* flex:1 1 auto; */
+  flex-grow:1;
+}
+
+.bio {
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    align-content: stretch;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+  }
+
+  .bio > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+  .profile_pic {
+    /* flex:1 1 auto; */
+    flex-grow:1;
+    color:red;
+  }
+
+  .profile_article {
+    /* flex:3 1 auto; */
+    flex-grow:7;
+    color:green;
+  }

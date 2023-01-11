@@ -261,12 +261,61 @@ head{
 
 
 
+/*display: flex;
+
+justify-content: space-evenly;
+align-items: stretch;
+/* flex-flow: row nowrap; */
+/*flex-direction: row;
+flex-wrap: nowrap;
+align-content: stretch;
+
+background-color: #bbdefb;
+height: 100%;
+padding: 15px;
+gap: 5px;
+
+        background-color: #bbdefb;
+        height: 100%;
+        padding: 15px;
+        gap: 5px; */
+        display: grid;
+
+           grid-template-rows: 1fr;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+
+           gap: 0px;
+           height: 100%;
+
 }
 .cert_container > article{
     color: blue;
+flex-grow:1;
+/* display: flex;
+
+    align-items: stretch;
+    /* flex-flow: column nowrap; */ /*
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px; */
 
 }
 
-.cert_container > img{
-    width:10;
+.cert_img{
+    width:50%;
+    align-self: center;
+}
+#gwaptid{
+    width:45%;
+    align-self: center;
+}
+.gfact_pic{
+
+    width:30%;
+    align-self: center;
 }

@@ -229,3 +229,44 @@ head{
 .sublist{
     color:red;
 }
+
+
+
+.certs{
+
+    color: red;
+
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
+     align-content: stretch;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+        gap: 5px;
+}
+
+.certheader{
+    flex-grow:0;
+    align-self:center;
+    align-content: center;
+
+}
+.cert_container{
+
+
+
+}
+.cert_container > article{
+    color: blue;
+
+}
+
+.cert_container > img{
+    width:10;
+}

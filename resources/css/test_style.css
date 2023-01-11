@@ -99,10 +99,133 @@ body{
     /* flex:1 1 auto; */
     flex-grow:1;
     color:red;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-self:flex-start
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
   }
+
+
+  .profile_article > div{
+     background: #ffecb3;
+     border: 3px solid #ffcc80;
+     border-radius: 5px;
+     padding: 8px;
+   }
+
+
+   .mepic {
+     /* flex:5 1 auto; */
+     flex-grow:1;
+    align-self:center;
+    display: flex;
+    align-items: center;
+   align-content: center;
+   }
+.pic{
+    align-self:center;
+    flex-grow:1;
+    width: 40vh;
+
+}
+   .name {
+     /* flex:2 1 auto; */
+     flex-grow:2;
+align-self:center;
+   }
+
+   .job {
+     /* flex:1 1 auto; */
+     flex-grow:1;
+     align-self:center;
+   }
+
+   .socials {
+     /* flex:1 1 auto; */
+     flex-grow:1;
+     align-self:center;
+   }
+
+
+
+
 
   .profile_article {
     /* flex:3 1 auto; */
     flex-grow:7;
     color:green;
+    align-self:stretch;
+    display: flex;
+
+    justify-content: space-evenly;
+    /* flex-flow: column nowrap; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
   }
+  .prof_title {
+    /* flex:0 1 auto; */
+    flex-grow:0;
+    align-self:center;
+  }
+
+  .par1 {
+    /* flex:1 1 auto; */
+    flex-grow:1;
+    align-self:flex-start;
+  }
+
+  .par2 {
+    /* flex:1 1 auto; */
+    flex-grow:1;
+    align-self:flex-start;
+  }
+
+  .bsec {
+    /* flex:1 1 auto; */
+    flex-grow:1;
+    align-self:stretch;
+    display: flex;
+
+
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-flow: row nowrap; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+  }
+.interests{
+align-self:stretch;
+}
+
+.edu {
+align-self:stretch;
+}
+
+head{
+    align-self:center;
+}
+.sublist{
+    color:red;
+}

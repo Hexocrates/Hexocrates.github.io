@@ -801,6 +801,9 @@ img {
     justify-self: center;
 }
 
+#fast-track{
+    color: red;
+}
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data, .testimonial__header {
     display: flex;

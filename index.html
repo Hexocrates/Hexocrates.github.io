@@ -1,34 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" type="image/x-icon" href="\resources\images\favicon\favicon.ic">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="resources/css/start.css">
-  <title>Stanley Adams</title>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+ <link rel="icon" type="image/x-icon" href="assets\img\favi.svg">
+    <title>Stanley Adams Portfolio</title>
 </head>
-<body>
 
 <body>
-    <div class="flex-container">
-        <img src="https://avatars.githubusercontent.com/u/76600657?v=4" alt="">
-        <div class="item1">
-        <h1>Hi I'm Stanley,</h1></div>
-        <div class="dyno">
-            <h2 class="sec_head"><span>An Aspiring  </span> <span class="auto-type"></span></h2>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Stanley Adams</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Biography
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#comps" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Competitions
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certs" class="nav__link">
+                            <i class="uil uil-briefcase nav__icon"></i>Certifcations
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Projects
+                        </a>
+                    </li>
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+
+            </div>
+
+            <div class="nav__btns">
+
+                <!-- Theme change button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"> </i>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://linkedin.com/in/stanleyadams" target="_blank"class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Hexocrates" class="home__social-icon" target="_blank">
+                                   <i class="uil uil-github"></i>
+                               </a>
+                               <a href="assets\pdf\SA-Cv.pdf" class="home__social-icon" target="_blank">
+                                       <i class="uil uil-file"></i>
+                                   </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/perfil.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Stanley</h1>
+                        <h3 class="home__subtitle">UTSA Cyber Security Student</h3>
+                        <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                                            </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Biography</h2>
+                <span class="section__subtitle">My Journey</span>
+
+            <div class="about__container container grid">
+
+                <div class="about__data">
+                    <p class="about__description">Hi, I'm Stanley Adams, currently I am setting forth to break into the bug bounty for web applications. I have a bachelor’s degree in cyber security with a minor in digital forensics from the University of Texas at San Antonio and I am currently enrolled over at the SANS Technology Institute. I am currently interested in web security with a goal of progressing to finding flaws and securing them in APIs.
+                    </p>
+
+                    <p class="about__description">I am very active in the cyber security CTF community, grinding out challenges on the weekends, honing my skills and creating my own when I have some spare time. Practicing and working through these challenges allowed me to help my team as we worked together to score 8th place national in the National Cyber League Fall 2022 Team Game. Competing in these competitions I feel is one of the best ways to figure out what part of the cybersecurity world you fit in.
+                    </p>
+
+                        <div class="about__description">
+                            <center>
+                                <h2>Education</h2>
+                            </center>
+
+                    <bold><li class="list">SANS Technology Institute [Enrolled]</li></bold>
+                    <ul>
+                        <li>  Undergraduate Certificate in Applied Cybersecurity (ACS)</li>
+                    </ul>
+                    <li class="list">University of Texas at San Antonio - [December 2022]</li>
+                    <ul>
+                        <li>Bachelor of Business Administration – Cybersecurity - Minor in Digital Forensics</li>
+
+                    </ul class="list">
+                    <li>Austin Community College - [December 2017]</li>
+                    <ul>
+                        <li>Associate of L.A.N System, Concentration in Security Administration </li>
+                        <li>Associate of L.A.N System, Concentration in Network Administration</li>
+                    </ul>
+
+                    </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== Competitions ====================-->
+        <section class="skills section" id="comps">
+            <h2 class="section__title">Competitions</h2>
+            <span class="section__subtitle">My cybersecurity competitions awards</span>
+
+            <div class="comp__container container grid">
+    <!--==================== Comp 1 ====================-->
+                <div class="comp__content">
+                    <div class >
+                            <center>
+                                <img src="assets\img\NCL.png" alt="NCL Logo">
+                        <h3 class="comp__title">National Cyber Leauge</h3></center>
+                        <span class="section__subtitle"> Cyber Skyline is a leading cloud-based cybersecurity skills evaluation platform helping students & professionals track their skills growth and helping businesses find, identify, and cultivate talent <br><br>Below are my current Individual and Team Game rankings for the past seasons </span>
+                        <div class="services__container container grid">
+                <!--==================== ncl ====================-->
+                            <div class="services__content">
+                                <div>
+
+                                        <center>
+
+                                    <h3 class="services__title">NCL FALL 2022 <br></h3>
+
+                                    <img src="assets\img\NCL_med.png" alt="NCL MEDAL">
+                                                <span class="section__subtitle"> 5keletons <br>Individual Game<br> Rank: 202 / 3487 <br>(95th Percentile)</span>
+                                                <img src="assets\img\NCL_med.png" alt="NCL MEDAL">
+                                                                    <span class="section__subtitle"> SANS.edu Sentinels Team 3 <br>Team Game<br> Rank: 8 / 1068 <br>(100th Percentile)</span>
+                                    </center>
+                                </div>
+
+
+
+
+                            </div>
+
+                <!--==================== SERVICES 1 ====================-->
+                                        <div class="services__content">
+                                            <div>
+
+                                                    <center>
+
+                                                <h3 class="services__title">NCL SPRING 2022 <br></h3>
+                                                <img src="assets\img\NCL_med.png" alt="NCL MEDAL">
+                                                <span class="section__subtitle">
+                                                Hexachords</bold> <br>Individual Game<br> Rank: 520 / 3453 <br>(85th Percentile)</span>
+                                                            <a href="link address"><img src="assets\img\NCL_med.png" alt="NCL MEDAL"></a>
+                                                            <span class="section__subtitle">
+                                                            400 Bad Request</bold> <br>Team Game<br> Rank: 143 / 978 <br>(86th Percentile)</span>
+                                                </center>
+                                            </div>
+
+
+
+
+                                        </div>
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <div>
+
+                                <center>
+
+                            <h3 class="services__title">NCL FALL 2021<br></h3>
+<img src="assets\img\NCL_med.png" alt="NCL MEDAL">
+            <span class="section__subtitle">
+            Hexachords</bold> <br>Individual Game<br> Rank: 414 / 3644 <br>(89th Percentile)</span>
+
+</center>
+                        </div>
+                    </div></div></div></div>
+
+    <!--==================== Comp 2 ====================-->
+                            <div class="comp__content">
+                                <div>
+
+                                        <center>
+                                            <a href="https://api.badgr.io/public/assertions/PYoxZyb0Rfag83r_FjLchw"target="_blank"><div class="">
+                                                <img src="assets\img\US-2.png" alt="">
+                                                <img src="assets\img\Combine.png" alt="">
+                                            </div></a>
+                                    <h3 class="comp__title">US Cyber Games Open & Combine 2021 </h3></center>
+                <span class="section__subtitle">An open national competition for top athletes aged 18–26 to face off in a cybersecurity challenges, where top performing competitors are invited to US Cyber Combine. These challenges included: Web challenges, Binary exploits, Reverse Engineering, Cryptography, and Forensics challenges. <br><br>Below are the badges I was awarded for each of the subjects.</span>
+                <div class="services__container container grid">
+                                <div class="services__content">
+                                    <a href="https://api.badgr.io/public/assertions/Rg9LcOUmRAeEy5SQlhujSQ" target="_blank"> <img src="assets\img\web_50.png" alt="web Badge"></a>
+                                </div>
+                                <div class="services__content">
+                                    <a href="https://api.badgr.io/public/assertions/U29N2l_pToasx1rgbdmVWg"target="_blank"> <img src="assets\img\forensics_50.png" alt=""></a>
+                                </div>
+                                <div class="services__content">
+                                    <a href="https://api.badgr.io/public/assertions/a7KwFkygSu-WOnBXSZR1lw "target="_blank"> <img src="assets\img\reveng_50.png" alt=""></a>
+                                </div>
+                                <div class="services__content">
+                                    <a href="https://api.badgr.io/public/assertions/U3_xjcMSSsK8KbFcbKdH_w"target="_blank"> <img src="assets\img\crypto_50.png" alt=""></a>
+                                </div>
+                                <div class="services__content">
+                                    <a href="https://api.badgr.io/public/assertions/Djsxu2PATrmyEE6ZQLX5ng"target="_blank"> <img src="assets\img\binary_50.png" alt=""></a>
+                                </div>
+</div>
+                                </div>
+                            </div>
+        <!--==================== comp 3 ====================-->
+        <div class="comp__content">
+            <div>
+
+                    <center>
+                        <a href="https://www.cyber-fasttrack.org/"target="_blank"><img src="assets\img\cyberfast.png" alt="Cyberfast track logo"> </a>
+                <h3 class="comp__title"> Cyber FastTrack 2021</h3></center>
+                <span class="section__subtitle"> A two day national cybersecurity competition open to all college and university students to test and rank competitors on practical and technical cybersecurity skills hosted by the National Cyber Scholarship Foundation and SANS Technology Institute</span>
+                <div class="services__content">
+<span class="section__subtitle"><img src="assets\img\award.svg" width=15% alt="">
+<h3 class="services__title"><br>Hexachords <br>Rank 128/3489 <br></h3>
+      I achieved top 4% and was invited to join the Sans Foundations course (GFACT)</span>
+
+</div>
+        </div>
+        </section>
+
+
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="certs">
+            <h2 class="section__title">Certifcations</h2>
+            <span class="section__subtitle">Certifications that I have achieved</span>
+
+            <div class="services__container container grid">
+    <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+
+                            <center>
+                                <img src="assets\img\GCIH.png" alt="">
+                        <h3 class="services__title">GIAC Certified Incident Handler <br>(GCIH)</h3></center>
+    <span class="section__subtitle">November 2022</span>
+                        <span class="section__subtitle">SANS Technology Institute</span>
+
+                    </div>
+
+
+
+
+                </div>
+
+    <!--==================== SERVICES 1 ====================-->
+                            <div class="services__content">
+                                <div>
+                                        <center>
+                                            <img src="assets\img\GSEC.png" alt="">
+                                    <h3 class="services__title">GIAC GIAC Security Essentials <br>(GSEC)</h3></center>
+                <span class="section__subtitle">July 2022</span>
+                                    <span class="section__subtitle">SANS Technology Institute</span>
+                                </div>
+                            </div>
+        <!--==================== SERVICES 2 ====================-->
+        <div class="services__content">
+            <div>    <center>
+                        <img src="assets\img\GFACT_50.png" alt="">
+                <h3 class="services__title">GIAC Foundational Cybersecurity Technologies <br>(GFACT)</h3></center>
+<span class="section__subtitle">October 2021</span>
+                <span class="section__subtitle">SANS Technology Institute</span>
+            </div>
         </div>
 
-        <script>
-            var typed = new Typed(".auto-type",{
-            strings: ["Penetration Tester","Bug Hunter","Web Developer","Security Analyst","Threat Hunter","Exploit Developer","Reverse Engineer"],
-            typeSpeed: 70,
-            backSpeed: 50,
-            loop:true
-                })
-        </script>
-        <a href="" class="button2" >Enter Here</a>
-    </div>
+        <!--==================== SERVICES 3 ====================-->
+
+                    <div class="services__content" >
+                        <div>
+                                <center>
+                                    <img src="assets\img\GWAPT.png" alt="GWAPT"id="grayscale">
+                            <h3 class="services__title">GIAC Web Application Penetration Tester <br>(GWAPT)</h3></center>
+        <span class="section__subtitle">Inprogress <br>Expected: June 2023</span>
+                            <span class="section__subtitle">SANS Technology Institute</span>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My recent projects</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title"> Cryptography Trainer </h3>
+                    <p class="portfolio__description">A simple python script to test your CTF cryptography knowledge</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Enter
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">The Hexormancer's Crypt**COMMING SOON** </h3>
+                    <p class="portfolio__description"> A web ctf challenge to uncover the mystery of this strange site</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                    Enter
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">PortSwiger Walkthrough | BLANK</h3>
+                    <p class="portfolio__description">A guide to basic directory traversal exploits</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Enter
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+
+        </section>
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="">
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+
+                </div>
+
+                <ul class="footer__links">
+
+                </ul>
+
+                <div class="footer__socials">
+
+                </div>
+            </div>
+
+            <p class="footer__copy"> </p>
+        </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
